@@ -5,4 +5,11 @@
 
 module.exports = (word) => {
 
+let lastLetter = word.charAt(word.length - 1);
+
+    if (lastLetter.toLowerCase() === 's') {
+        return true;
+    } else {
+        return false;
+    }
 };
